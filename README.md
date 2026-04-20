@@ -105,16 +105,6 @@
 
 🌐 **在线访问**: [awfp1314.github.io](https://awfp1314.github.io)
 
-### 📊 GitHub 统计
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Awfp1314&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Awfp1314&layout=compact&langs_count=8&theme=tokyonight"/>
-</div>
-
 ### 🎓 正在学习
 
 - 🧠 AI 应用开发（LLM、RAG、Function Calling）
