@@ -38,34 +38,89 @@
 
 ### 🎯 项目展示
 
-<div align="center">
+<table>
+<tr>
+<td width="50%">
 
-<a href="https://github.com/Awfp1314/UE_ToolkitAI">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Awfp1314&repo=UE_ToolkitAI&theme=tokyonight&show_owner=true" />
-</a>
+#### 🎮 [UE_ToolkitAI](https://github.com/Awfp1314/UE_ToolkitAI)
 
-<a href="https://github.com/Awfp1314/IOT-Testing">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Awfp1314&repo=IOT-Testing&theme=tokyonight&show_owner=true" />
-</a>
+AI 驱动的虚幻引擎工具箱
 
-<a href="https://github.com/Awfp1314/FruitSetting">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Awfp1314&repo=FruitSetting&theme=tokyonight&show_owner=true" />
-</a>
+![Stars](https://img.shields.io/github/stars/Awfp1314/UE_ToolkitAI?style=social)
+![Forks](https://img.shields.io/github/forks/Awfp1314/UE_ToolkitAI?style=social)
+![Language](https://img.shields.io/github/languages/top/Awfp1314/UE_ToolkitAI)
 
-<a href="https://github.com/Awfp1314/awfp1314.github.io">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Awfp1314&repo=awfp1314.github.io&theme=tokyonight&show_owner=true" />
-</a>
+**10万+行代码** | 集成多模型 LLM、138个工具、MCP协议、FAISS语义检索
 
-</div>
+🌐 [官网](https://unrealenginetookit.top)
 
-**🌐 在线访问**
+</td>
+<td width="50%">
 
-- [UE_ToolkitAI 官网](https://unrealenginetookit.top) - AI 驱动的虚幻引擎工具箱
-- [IOT-Testing](https://awfp1314.github.io/IOT-Testing/) - 物联网题库系统
-- [FruitSetting](https://www.uetookit.icu) - 摆摊小助手 PWA
-- [技术博客](https://awfp1314.github.io) - 学习笔记与技术分享
+#### 📚 [IOT-Testing](https://github.com/Awfp1314/IOT-Testing)
 
----
+物联网题库系统
+
+![Stars](https://img.shields.io/github/stars/Awfp1314/IOT-Testing?style=social)
+![Forks](https://img.shields.io/github/forks/Awfp1314/IOT-Testing?style=social)
+![Language](https://img.shields.io/github/languages/top/Awfp1314/IOT-Testing)
+
+**568道题目** | 支持单选、多选、判断题，实时反馈和评分
+
+🌐 [在线访问](https://awfp1314.github.io/IOT-Testing/)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 🍎 [FruitSetting](https://github.com/Awfp1314/FruitSetting)
+
+摆摊小助手 PWA
+
+![Stars](https://img.shields.io/github/stars/Awfp1314/FruitSetting?style=social)
+![Forks](https://img.shields.io/github/forks/Awfp1314/FruitSetting?style=social)
+![Language](https://img.shields.io/github/languages/top/Awfp1314/FruitSetting)
+
+农历赶集日历、记账系统、促销文案生成器、AI助手
+
+🌐 [在线访问](https://www.uetookit.icu)
+
+</td>
+<td width="50%">
+
+#### 📝 [技术博客](https://github.com/Awfp1314/awfp1314.github.io)
+
+学习笔记与技术分享
+
+![Stars](https://img.shields.io/github/stars/Awfp1314/awfp1314.github.io?style=social)
+![Forks](https://img.shields.io/github/forks/Awfp1314/awfp1314.github.io?style=social)
+![Language](https://img.shields.io/github/languages/top/Awfp1314/awfp1314.github.io)
+
+使用 Astro + React + MDX 构建，记录 AI 应用和 Web 开发
+
+🌐 [在线访问](https://awfp1314.github.io)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 🔧 [ue_toolkits](https://github.com/Awfp1314/ue_toolkits)
+
+虚幻引擎工具箱（旧版）
+
+![Stars](https://img.shields.io/github/stars/Awfp1314/ue_toolkits?style=social)
+![Forks](https://img.shields.io/github/forks/Awfp1314/ue_toolkits?style=social)
+![Language](https://img.shields.io/github/languages/top/Awfp1314/ue_toolkits)
+
+UE_ToolkitAI 的前身，已停止维护
+
+</td>
+<td width="50%">
+</td>
+</tr>
+</table>
 
 ---
 
