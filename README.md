@@ -19,34 +19,28 @@
 
 ### 💻 技术栈
 
-```javascript
-const hutao = {
-  // 编程语言
-  languages: {
-    familiar: ["C"], // 熟悉
-    learning: ["C++", "Python"], // 学习中
-  },
+**编程语言**
 
-  // AI 应用（理论学习）
-  aiConcepts: [
-    "LLM 应用模式",
-    "MCP (模型上下文协议)",
-    "RAG (检索增强生成)",
-    "Transformer 架构",
-    "AgentSkills 技能系统",
-  ],
+- 熟悉：C
+- 学习中：C++、Python
 
-  // Web 开发（项目实践）
-  webDev: {
-    frameworks: ["React", "Vite", "Astro"],
-    styling: ["TailwindCSS"],
-    deployment: ["GitHub Pages", "Vercel"],
-  },
+**AI 应用（理论学习）**
 
-  // 工具和平台
-  tools: ["Git", "Unreal Engine", "VS Code", "Obsidian"],
-};
-```
+- LLM 应用模式
+- MCP (模型上下文协议)
+- RAG (检索增强生成)
+- Transformer 架构
+- AgentSkills 技能系统
+
+**Web 开发（项目实践）**
+
+- 框架：React、Vite、Astro
+- 样式：TailwindCSS
+- 部署：GitHub Pages、Vercel
+
+**工具和平台**
+
+- Git、Unreal Engine、VS Code、Obsidian
 
 ### 🎯 项目展示
 
