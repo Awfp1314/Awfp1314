@@ -17,30 +17,22 @@
 - 🌐 使用现代框架构建 Web 应用
 - 📝 在[博客](https://awfp1314.github.io)记录学习心得
 
+### 📊 GitHub 统计
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Awfp1314&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Awfp1314&layout=compact&langs_count=8&theme=tokyonight"/>
+</div>
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 ### 💻 技术栈
 
-**编程语言**
-
-- 熟悉：C
-- 学习中：C++、Python
-
-**AI 应用（理论学习）**
-
-- LLM 应用模式
-- MCP (模型上下文协议)
-- RAG (检索增强生成)
-- Transformer 架构
-- AgentSkills 技能系统
-
-**Web 开发（项目实践）**
-
-- 框架：React、Vite、Astro
-- 样式：TailwindCSS
-- 部署：GitHub Pages、Vercel
-
-**工具和平台**
-
-- Git、Unreal Engine、VS Code、Obsidian
+**编程语言**: C（熟悉）、C++（学习中）、Python（学习中）  
+**AI 应用**: LLM 应用模式、MCP 协议、RAG、Transformer、AgentSkills  
+**Web 开发**: React、Vite、Astro、TailwindCSS  
+**工具平台**: Git、Unreal Engine、VS Code、Obsidian
 
 ### 🎯 项目展示
 
