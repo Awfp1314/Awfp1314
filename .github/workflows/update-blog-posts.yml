@@ -1,0 +1,114 @@
+name: Update Recent Blog Posts
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 每天运行一次
+  workflow_dispatch: # 允许手动触发
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Checkout blog repo
+        uses: actions/checkout@v3
+        with:
+          repository: Awfp1314/awfp1314.github.io
+          path: blog-repo
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install python-frontmatter
+
+      - name: Update blog posts
+        run: |
+          python << 'EOF'
+          import os
+          import re
+          import frontmatter
+          from pathlib import Path
+          from datetime import datetime
+
+          # 读取所有博客文章
+          blog_posts = []
+          blog_dir = Path('blog-repo/src/blog')
+
+          for mdx_file in blog_dir.rglob('*.mdx'):
+              # 只处理中文文章
+              if not any(char in mdx_file.stem for char in ['模型', '技能', '检索', '架构', '环境', '知识', '同步', '部署']):
+                  continue
+                  
+              try:
+                  with open(mdx_file, 'r', encoding='utf-8') as f:
+                      post = frontmatter.load(f)
+                      
+                      title = post.get('title', mdx_file.stem)
+                      description = post.get('description', '')
+                      pub_date = post.get('pubDate')
+                      
+                      # 构建URL
+                      parts = mdx_file.relative_to(blog_dir).parts
+                      year, month = parts[0], parts[1]
+                      filename = mdx_file.stem
+                      url = f"https://awfp1314.github.io/blog/{year}/{month}/{filename}"
+                      
+                      # 解析日期
+                      if isinstance(pub_date, str):
+                          date_obj = datetime.fromisoformat(pub_date.replace('Z', '+00:00'))
+                      else:
+                          date_obj = pub_date
+                      
+                      blog_posts.append({
+                          'title': title,
+                          'description': description,
+                          'url': url,
+                          'date': date_obj
+                      })
+              except Exception as e:
+                  print(f"Error processing {mdx_file}: {e}")
+                  continue
+
+          # 按日期排序，取最新的4篇
+          blog_posts.sort(key=lambda x: x['date'], reverse=True)
+          recent_posts = blog_posts[:4]
+
+          # 生成Markdown列表
+          blog_list = []
+          for post in recent_posts:
+              blog_list.append(f"- [{post['title']}]({post['url']}) - {post['description']}")
+
+          blog_section = '\n'.join(blog_list)
+
+          # 更新README
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+
+          # 替换博客列表部分
+          pattern = r'(### 📝 最近博客\n\n)(.*?)(\n\n###)'
+          replacement = f'\\1{blog_section}\\3'
+          new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(new_content)
+
+          print("✅ Blog posts updated successfully!")
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: 自动更新最近博客列表" && git push)

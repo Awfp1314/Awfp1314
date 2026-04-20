@@ -1,145 +1,96 @@
-# GitHub Profile 动态统计配置指南
+# GitHub Profile 配置指南
 
-## 📋 前置要求
+这个仓库是你的 GitHub 个人主页 README，包含自动更新功能。
 
-1. GitHub 账号
-2. WakaTime 账号（免费）
+## 功能特性
 
-## 🚀 配置步骤
+### 1. WakaTime 编码统计（自动更新）
 
-### 1. 注册 WakaTime
+显示你的编码时间、使用的语言、编辑器等统计信息。
 
-1. 访问 [WakaTime](https://wakatime.com/)
-2. 使用 GitHub 账号登录
-3. 进入 [Settings → API Key](https://wakatime.com/settings/api-key)
-4. 复制你的 API Key
+**配置步骤：**
 
-### 2. 安装 WakaTime 插件
+1. 注册 WakaTime 账号：https://wakatime.com/
+2. 在 VS Code 中安装 WakaTime 插件
+3. 获取 WakaTime API Key：
+   - 登录 WakaTime
+   - 进入 Settings → API Key
+   - 复制你的 API Key
 
-根据你使用的编辑器安装对应插件：
+4. 配置 GitHub Secrets：
+   - 进入仓库 Settings → Secrets and variables → Actions
+   - 添加 `WAKATIME_API_KEY`：粘贴你的 WakaTime API Key
+   - 添加 `GH_TOKEN`：
+     - 进入 GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
+     - 生成新 token，勾选 `repo` 和 `workflow` 权限
+     - 复制 token 并添加到 Secrets
 
-- **VS Code**: 在扩展商店搜索 "WakaTime"
-- **PyCharm**: Settings → Plugins → 搜索 "WakaTime"
-- **其他编辑器**: 查看 [WakaTime 插件列表](https://wakatime.com/plugins)
+5. 手动触发首次更新：
+   - 进入仓库 Actions 标签
+   - 选择 "Waka Readme" workflow
+   - 点击 "Run workflow"
 
-安装后输入你的 API Key。
+**更新频率：** 每天自动更新一次（北京时间早上 8:00）
 
-### 3. 配置 GitHub Secrets
+### 2. 最近博客列表（自动更新）
 
-1. 进入你的 GitHub Profile 仓库（`Awfp1314/Awfp1314`）
-2. 点击 `Settings` → `Secrets and variables` → `Actions`
-3. 添加以下两个 Secret：
+自动从你的博客仓库 (awfp1314.github.io) 抓取最新的 4 篇文章。
 
-#### Secret 1: WAKATIME_API_KEY
+**工作原理：**
 
-- Name: `WAKATIME_API_KEY`
-- Value: 你的 WakaTime API Key
+- 每天自动运行
+- 读取博客仓库的 MDX 文件
+- 提取标题、描述和发布日期
+- 按日期排序，更新 README
 
-#### Secret 2: GH_TOKEN
+**手动触发：**
 
-- Name: `GH_TOKEN`
-- Value: GitHub Personal Access Token
+- 进入 Actions 标签
+- 选择 "Update Recent Blog Posts" workflow
+- 点击 "Run workflow"
 
-**创建 GitHub Token**：
+**更新频率：** 每天自动更新一次，或每次推送到 main 分支时更新
 
-1. 访问 [GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)](https://github.com/settings/tokens)
-2. 点击 `Generate new token (classic)`
-3. 设置：
-   - Note: `Waka Readme Stats`
-   - Expiration: `No expiration`（或选择一个时间）
-   - 勾选权限：
-     - ✅ `repo` (所有子选项)
-     - ✅ `user` (所有子选项)
-4. 点击 `Generate token`
-5. 复制生成的 token（只显示一次！）
+### 3. GitHub 统计卡片（实时）
 
-### 4. 推送代码
+显示你的 GitHub 统计信息和最常用语言，无需配置，实时生成。
 
-```bash
-cd GithubProject/Awfp1314
-git add .
-git commit -m "feat: 添加 WakaTime 动态统计"
-git push origin main
-```
+## 维护说明
 
-### 5. 手动触发第一次运行
+### 更新个人信息
 
-1. 进入仓库的 `Actions` 标签页
-2. 点击左侧的 `Waka Readme`
-3. 点击右侧的 `Run workflow` → `Run workflow`
-4. 等待几分钟，查看 README 是否更新
+直接编辑 `README.md` 文件中的以下部分：
 
-## 📊 统计内容
+- 关于我
+- 技术栈
+- 项目展示
+- 联系方式
 
-配置完成后，README 会自动显示：
+### 添加新项目
 
-- 📝 **代码行数统计** - 从 "Hello World" 开始写了多少行代码
-- 🏆 **GitHub 数据** - 存储使用、贡献次数、仓库数量
-- 🌙 **工作时间分布** - 早晨/白天/晚上/深夜的代码量
-- 📅 **每周活跃度** - 周一到周日的提交分布
-- 💻 **编程语言** - 使用最多的编程语言
-- 🖥️ **操作系统** - 开发环境统计
-- 📂 **项目统计** - 在哪些项目上花费时间最多
-- ⏰ **时区信息** - 你的工作时区
+在 "项目展示" 部分添加新的项目卡片，格式参考现有项目。
 
-## 🔄 更新频率
+### 博客列表
 
-- **自动更新**: 每天 UTC 0:00（北京时间 8:00）
-- **手动触发**: 在 Actions 页面手动运行
+博客列表会自动更新，无需手动维护。如果需要立即更新，可以手动触发 workflow。
 
-## ⚠️ 注意事项
+## 故障排查
 
-1. **WakaTime 需要时间收集数据**
-   - 安装插件后需要编码一段时间才有数据
-   - 建议至少编码 1-2 天后再查看统计
+### WakaTime 不显示数据
 
-2. **GitHub Token 权限**
-   - 确保 token 有足够的权限
-   - Token 过期后需要重新生成并更新 Secret
+1. 检查 Secrets 是否正确配置
+2. 确认 WakaTime 插件已安装并登录
+3. 等待至少一天让 WakaTime 收集数据
+4. 手动触发 workflow 查看错误日志
 
-3. **隐私设置**
-   - WakaTime 默认统计所有项目
-   - 可以在 WakaTime 设置中排除特定项目
+### 博客列表不更新
 
-## 🎨 自定义配置
+1. 检查博客仓库是否有新文章
+2. 确认文章的 frontmatter 格式正确
+3. 手动触发 workflow 查看错误日志
 
-如果想调整显示内容，编辑 `.github/workflows/waka-readme.yml`：
+## 相关链接
 
-```yaml
-SHOW_LINES_OF_CODE: "True" # 显示代码行数
-SHOW_COMMIT: "True" # 显示提交统计
-SHOW_DAYS_OF_WEEK: "True" # 显示每周活跃度
-SHOW_LANGUAGE: "True" # 显示编程语言
-SHOW_OS: "True" # 显示操作系统
-SHOW_PROJECTS: "True" # 显示项目统计
-SHOW_TIMEZONE: "True" # 显示时区
-SHOW_EDITORS: "True" # 显示编辑器
-```
-
-## 🔗 相关链接
-
-- [WakaTime 官网](https://wakatime.com/)
-- [waka-readme-stats GitHub](https://github.com/anmol098/waka-readme-stats)
-- [GitHub Actions 文档](https://docs.github.com/en/actions)
-
-## ❓ 常见问题
-
-### Q: 为什么统计数据不显示？
-
-A:
-
-1. 检查 WakaTime 插件是否正常工作
-2. 确认 API Key 配置正确
-3. 等待至少 1-2 天让 WakaTime 收集数据
-
-### Q: 如何排除某些项目？
-
-A: 在 WakaTime 设置中添加项目到排除列表
-
-### Q: 统计数据多久更新一次？
-
-A: 默认每天更新一次，也可以手动触发
-
----
-
-配置完成后，你的 GitHub Profile 就会像参考项目一样酷炫了！🎉
+- WakaTime 官网：https://wakatime.com/
+- GitHub Stats 卡片：https://github.com/anuraghazra/github-readme-stats
+- 博客仓库：https://github.com/Awfp1314/awfp1314.github.io
