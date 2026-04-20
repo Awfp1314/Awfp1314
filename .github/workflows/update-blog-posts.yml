@@ -11,6 +11,8 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 给予写入权限
     steps:
       - name: Checkout profile repo
         uses: actions/checkout@v3
