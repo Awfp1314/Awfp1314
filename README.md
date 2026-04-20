@@ -34,76 +34,40 @@
 **Web 开发**: React、Vite、Astro、TailwindCSS  
 **工具平台**: Git、Unreal Engine、VS Code、Obsidian
 
+---
+
 ### 🎯 项目展示
 
-#### 🎮 [UE_ToolkitAI](https://github.com/Awfp1314/UE_ToolkitAI) - AI 驱动的虚幻引擎工具箱
+<div align="center">
 
-> **10 万+行代码** | Python + PyQt6 + AI
+<a href="https://github.com/Awfp1314/UE_ToolkitAI">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Awfp1314&repo=UE_ToolkitAI&theme=tokyonight&show_owner=true" />
+</a>
 
-面向虚幻引擎开发者的 AI 驱动桌面工具箱：
+<a href="https://github.com/Awfp1314/IOT-Testing">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Awfp1314&repo=IOT-Testing&theme=tokyonight&show_owner=true" />
+</a>
 
-- 🤖 集成多模型 LLM（Ollama + OpenAI/Claude）
-- 🛠️ 138 个工具（26 个业务工具 + 112 个 UE 编辑器操作）
-- � 支持 MCP 协议和 Function Calling
-- � 基于 FAISS 的语义检索
-- 🔄 与 UE 编辑器实时通信
+<a href="https://github.com/Awfp1314/FruitSetting">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Awfp1314&repo=FruitSetting&theme=tokyonight&show_owner=true" />
+</a>
 
-**技术栈**: Python, PyQt6, Ollama, OpenAI API, FAISS, Flask, C++
+<a href="https://github.com/Awfp1314/awfp1314.github.io">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Awfp1314&repo=awfp1314.github.io&theme=tokyonight&show_owner=true" />
+</a>
 
-🌐 **官网**: [unrealenginetookit.top](https://unrealenginetookit.top)
+</div>
 
-> 📦 旧版本：[ue_toolkits](https://github.com/Awfp1314/ue_toolkits)（已停止维护）
+**🌐 在线访问**
 
----
-
-#### 📚 [IOT-Testing](https://github.com/Awfp1314/IOT-Testing) - 物联网题库系统
-
-> **568 道题目** | React + Vite
-
-为物联网课程打造的在线题库系统：
-
-- 📝 支持单选、多选、判断题
-- ✅ 实时答题反馈和评分
-- 📊 成绩统计和进度追踪
-- 📱 响应式设计，多端适配
-
-**技术栈**: React 18, Vite, TailwindCSS
-
-🌐 **在线访问**: [awfp1314.github.io/IOT-Testing](https://awfp1314.github.io/IOT-Testing/)
+- [UE_ToolkitAI 官网](https://unrealenginetookit.top) - AI 驱动的虚幻引擎工具箱
+- [IOT-Testing](https://awfp1314.github.io/IOT-Testing/) - 物联网题库系统
+- [FruitSetting](https://www.uetookit.icu) - 摆摊小助手 PWA
+- [技术博客](https://awfp1314.github.io) - 学习笔记与技术分享
 
 ---
 
-#### 🍎 [FruitSetting](https://github.com/Awfp1314/FruitSetting) - 摆摊小助手
-
-> PWA 应用 | React + Vite
-
-专为摆摊人打造的实用工具集：
-
-- 🗓️ 基于农历的赶集日历
-- 📒 记账系统（进货、销售、库存）
-- 📝 促销文案生成器
-- 🤖 AI 助手
-
-**技术栈**: React 18, Vite, TailwindCSS, PWA
-
-🌐 **在线访问**: [uetookit.icu](https://www.uetookit.icu)
-
 ---
-
-#### 📝 [技术博客](https://github.com/Awfp1314/awfp1314.github.io)
-
-> Astro + React + MDX
-
-记录学习过程和技术思考：
-
-- 🤖 AI 应用学习笔记（MCP、Transformer、RAG）
-- � 虚幻引擎工具开发
-- 🌐 Web 开发实践
-- � 技术资源整理
-
-**技术栈**: Astro 5, React 19, TailwindCSS, MDX
-
-🌐 **在线访问**: [awfp1314.github.io](https://awfp1314.github.io)
 
 ### 🎓 正在学习
 
@@ -112,6 +76,8 @@
 - 🐍 Python 桌面应用开发
 - 🚀 现代 Web 框架（React、Astro）
 
+---
+
 ### 📝 最近博客
 
 - [MCP 模型上下文协议](https://awfp1314.github.io/blog/2026/3/MCP模型上下文协议) - 理解 AI 工具调用的标准化协议
@@ -119,11 +85,15 @@
 - [RAG 检索增强生成](https://awfp1314.github.io/blog/2026/3/RAG检索增强生成) - 给大模型外挂知识库
 - [Transformer 架构](https://awfp1314.github.io/blog/2026/3/Transformer架构) - 大模型的核心原理
 
+---
+
 ### 📫 联系方式
 
 - 💼 GitHub: [@Awfp1314](https://github.com/Awfp1314)
 - 📝 博客: [awfp1314.github.io](https://awfp1314.github.io)
 - 📧 邮箱: w184961997@gmail.com
+
+---
 
 ### 💡 关于我
 
