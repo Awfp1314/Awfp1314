@@ -135,10 +135,10 @@ UE_ToolkitAI 的前身，已停止维护
 
 ### 📝 最近博客
 
-- [Obsidian 阿里云 OSS 同步配置教程](https://awfp1314.github.io/blog/2026/4/obsidian阿里云oss同步/) - 说白了，就是用阿里云的对象存储来同步 Obsidian 笔记，多端访问无压力
-- [OpenClaw 部署指南](https://awfp1314.github.io/blog/2026/4/openclaw部署指南/) - 详细记录 OpenClaw 在 Windows 系统上的完整部署过程，包括环境准备、安装配置、模型设置等步骤
-- [Obsidian OneDrive 同步配置教程](https://awfp1314.github.io/blog/2026/4/obsidian-onedrive同步/) - 说白了，就是用 OneDrive 的免费 5G 空间来同步 Obsidian 笔记
-- [RAG：给大模型外挂一个知识库](https://awfp1314.github.io/blog/2026/3/rag检索增强生成/) - 说白了，RAG 就是给大模型外挂了一套知识库。每次提问时先去知识库里翻翻资料，然后让大模型根据找到的信息回答，这样就不会瞎编了。
+- [Obsidian 阿里云 OSS 同步配置教程](https://awfp1314.github.io/blog/2026/4/Obsidian阿里云OSS同步) - 说白了，就是用阿里云的对象存储来同步 Obsidian 笔记，多端访问无压力
+- [OpenClaw 部署指南](https://awfp1314.github.io/blog/2026/4/OpenClaw部署指南) - 详细记录 OpenClaw 在 Windows 系统上的完整部署过程，包括环境准备、安装配置、模型设置等步骤
+- [Obsidian OneDrive 同步配置教程](https://awfp1314.github.io/blog/2026/4/Obsidian-OneDrive同步) - 说白了，就是用 OneDrive 的免费 5G 空间来同步 Obsidian 笔记
+- [RAG：给大模型外挂一个知识库](https://awfp1314.github.io/blog/2026/3/RAG检索增强生成) - 说白了，RAG 就是给大模型外挂了一套知识库。每次提问时先去知识库里翻翻资料，然后让大模型根据找到的信息回答，这样就不会瞎编了。
 
 ### 📫 联系方式
 
