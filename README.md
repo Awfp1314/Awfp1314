@@ -59,7 +59,9 @@ AI 驱动的技术情报管道<br>
 
 ![Stars](https://img.shields.io/github/stars/Awfp1314/RSS-Distiller?style=social) ![Forks](https://img.shields.io/github/forks/Awfp1314/RSS-Distiller?style=social) ![Language](https://img.shields.io/github/languages/top/Awfp1314/RSS-Distiller)<br>
 
-DeepSeek 双维度评分（相关性+质量）、多频道路由、双语摘要推送
+DeepSeek 双维度评分（相关性+质量）、多频道路由、双语摘要推送<br>
+
+💬 [加入Discord](https://discord.gg/j556gmgY4)
 
 </td>
 </tr>
