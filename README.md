@@ -40,92 +40,74 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🎮 [UE_ToolkitAI](https://github.com/Awfp1314/UE_ToolkitAI)
+**🎮 [UE_ToolkitAI](https://github.com/Awfp1314/UE_ToolkitAI)**<br>
+AI 驱动的虚幻引擎工具箱<br>
 
-AI 驱动的虚幻引擎工具箱
+![Stars](https://img.shields.io/github/stars/Awfp1314/UE_ToolkitAI?style=social) ![Forks](https://img.shields.io/github/forks/Awfp1314/UE_ToolkitAI?style=social) ![Language](https://img.shields.io/github/languages/top/Awfp1314/UE_ToolkitAI)<br>
 
-![Stars](https://img.shields.io/github/stars/Awfp1314/UE_ToolkitAI?style=social)
-![Forks](https://img.shields.io/github/forks/Awfp1314/UE_ToolkitAI?style=social)
-![Language](https://img.shields.io/github/languages/top/Awfp1314/UE_ToolkitAI)
-
-**10万+行代码** | 集成多模型 LLM、138个工具、MCP协议、FAISS语义检索
+**10万+行代码** | 集成多模型 LLM、138个工具、MCP协议、FAISS语义检索<br>
 
 🌐 [官网](https://unrealenginetookit.top)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🔬 [RSS-Distiller](https://github.com/Awfp1314/RSS-Distiller)
+**🔬 [RSS-Distiller](https://github.com/Awfp1314/RSS-Distiller)**<br>
+AI 驱动的技术情报管道<br>
 
-AI 驱动的技术情报管道
-
-![Stars](https://img.shields.io/github/stars/Awfp1314/RSS-Distiller?style=social)
-![Forks](https://img.shields.io/github/forks/Awfp1314/RSS-Distiller?style=social)
-![Language](https://img.shields.io/github/languages/top/Awfp1314/RSS-Distiller)
+![Stars](https://img.shields.io/github/stars/Awfp1314/RSS-Distiller?style=social) ![Forks](https://img.shields.io/github/forks/Awfp1314/RSS-Distiller?style=social) ![Language](https://img.shields.io/github/languages/top/Awfp1314/RSS-Distiller)<br>
 
 DeepSeek 双维度评分（相关性+质量）、多频道路由、双语摘要推送
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 📚 [IOT-Testing](https://github.com/Awfp1314/IOT-Testing)
+**📚 [IOT-Testing](https://github.com/Awfp1314/IOT-Testing)**<br>
+物联网题库系统<br>
 
-物联网题库系统
+![Stars](https://img.shields.io/github/stars/Awfp1314/IOT-Testing?style=social) ![Forks](https://img.shields.io/github/forks/Awfp1314/IOT-Testing?style=social) ![Language](https://img.shields.io/github/languages/top/Awfp1314/IOT-Testing)<br>
 
-![Stars](https://img.shields.io/github/stars/Awfp1314/IOT-Testing?style=social)
-![Forks](https://img.shields.io/github/forks/Awfp1314/IOT-Testing?style=social)
-![Language](https://img.shields.io/github/languages/top/Awfp1314/IOT-Testing)
-
-**568道题目** | 支持单选、多选、判断题，实时反馈和评分
+**568道题目** | 支持单选、多选、判断题，实时反馈和评分<br>
 
 🌐 [在线访问](https://awfp1314.github.io/IOT-Testing/)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🍎 [FruitSetting](https://github.com/Awfp1314/FruitSetting)
+**🍎 [FruitSetting](https://github.com/Awfp1314/FruitSetting)**<br>
+摆摊小助手 PWA<br>
 
-摆摊小助手 PWA
+![Stars](https://img.shields.io/github/stars/Awfp1314/FruitSetting?style=social) ![Forks](https://img.shields.io/github/forks/Awfp1314/FruitSetting?style=social) ![Language](https://img.shields.io/github/languages/top/Awfp1314/FruitSetting)<br>
 
-![Stars](https://img.shields.io/github/stars/Awfp1314/FruitSetting?style=social)
-![Forks](https://img.shields.io/github/forks/Awfp1314/FruitSetting?style=social)
-![Language](https://img.shields.io/github/languages/top/Awfp1314/FruitSetting)
-
-农历赶集日历、记账系统、促销文案生成器、AI助手
+农历赶集日历、记账系统、促销文案生成器、AI助手<br>
 
 🌐 [在线访问](https://www.uetookit.icu)
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 📝 [技术博客](https://github.com/Awfp1314/awfp1314.github.io)
+**📝 [技术博客](https://github.com/Awfp1314/awfp1314.github.io)**<br>
+学习笔记与技术分享<br>
 
-学习笔记与技术分享
+![Stars](https://img.shields.io/github/stars/Awfp1314/awfp1314.github.io?style=social) ![Forks](https://img.shields.io/github/forks/Awfp1314/awfp1314.github.io?style=social) ![Language](https://img.shields.io/github/languages/top/Awfp1314/awfp1314.github.io)<br>
 
-![Stars](https://img.shields.io/github/stars/Awfp1314/awfp1314.github.io?style=social)
-![Forks](https://img.shields.io/github/forks/Awfp1314/awfp1314.github.io?style=social)
-![Language](https://img.shields.io/github/languages/top/Awfp1314/awfp1314.github.io)
-
-使用 Astro + React + MDX 构建，记录 AI 应用和 Web 开发
+使用 Astro + React + MDX 构建，记录 AI 应用和 Web 开发<br>
 
 🌐 [在线访问](https://awfp1314.github.io)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🔧 [ue_toolkits](https://github.com/Awfp1314/ue_toolkits)
+**🔧 [ue_toolkits](https://github.com/Awfp1314/ue_toolkits)**<br>
+虚幻引擎工具箱（旧版）<br>
 
-虚幻引擎工具箱（旧版）
-
-![Stars](https://img.shields.io/github/stars/Awfp1314/ue_toolkits?style=social)
-![Forks](https://img.shields.io/github/forks/Awfp1314/ue_toolkits?style=social)
-![Language](https://img.shields.io/github/languages/top/Awfp1314/ue_toolkits)
+![Stars](https://img.shields.io/github/stars/Awfp1314/ue_toolkits?style=social) ![Forks](https://img.shields.io/github/forks/Awfp1314/ue_toolkits?style=social) ![Language](https://img.shields.io/github/languages/top/Awfp1314/ue_toolkits)<br>
 
 UE_ToolkitAI 的前身，已停止维护
 
