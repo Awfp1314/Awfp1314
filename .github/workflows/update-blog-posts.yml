@@ -64,7 +64,7 @@ jobs:
                       parts = mdx_file.relative_to(blog_dir).parts
                       year, month = parts[0], parts[1]
                       filename = mdx_file.stem
-                      url = f"https://awfp1314.github.io/blog/{year}/{month}/{filename}"
+                      url = f"https://awfp1314.github.io/{year}/{month}/{filename.lower()}/"
                       
                       # 解析日期
                       if isinstance(pub_date, str):
