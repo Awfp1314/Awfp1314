@@ -57,6 +57,21 @@ AI 驱动的虚幻引擎工具箱
 </td>
 <td width="50%">
 
+#### 🔬 [RSS-Distiller](https://github.com/Awfp1314/RSS-Distiller)
+
+AI 驱动的技术情报管道
+
+![Stars](https://img.shields.io/github/stars/Awfp1314/RSS-Distiller?style=social)
+![Forks](https://img.shields.io/github/forks/Awfp1314/RSS-Distiller?style=social)
+![Language](https://img.shields.io/github/languages/top/Awfp1314/RSS-Distiller)
+
+DeepSeek 双维度评分（相关性+质量）、多频道路由、双语摘要推送
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 #### 📚 [IOT-Testing](https://github.com/Awfp1314/IOT-Testing)
 
 物联网题库系统
@@ -70,8 +85,6 @@ AI 驱动的虚幻引擎工具箱
 🌐 [在线访问](https://awfp1314.github.io/IOT-Testing/)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 #### 🍎 [FruitSetting](https://github.com/Awfp1314/FruitSetting)
@@ -87,6 +100,8 @@ AI 驱动的虚幻引擎工具箱
 🌐 [在线访问](https://www.uetookit.icu)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 #### 📝 [技术博客](https://github.com/Awfp1314/awfp1314.github.io)
@@ -102,8 +117,6 @@ AI 驱动的虚幻引擎工具箱
 🌐 [在线访问](https://awfp1314.github.io)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 #### 🔧 [ue_toolkits](https://github.com/Awfp1314/ue_toolkits)
@@ -116,8 +129,6 @@ AI 驱动的虚幻引擎工具箱
 
 UE_ToolkitAI 的前身，已停止维护
 
-</td>
-<td width="50%">
 </td>
 </tr>
 </table>
